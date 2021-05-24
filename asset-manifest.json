@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/weather/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/weather/static/js/main.eea0ea9f.chunk.js",
-    "main.js.map": "/weather/static/js/main.eea0ea9f.chunk.js.map",
-    "runtime-main.js": "/weather/static/js/runtime-main.60d3ddd3.js",
-    "runtime-main.js.map": "/weather/static/js/runtime-main.60d3ddd3.js.map",
-    "static/js/2.aa3466b4.chunk.js": "/weather/static/js/2.aa3466b4.chunk.js",
-    "static/js/2.aa3466b4.chunk.js.map": "/weather/static/js/2.aa3466b4.chunk.js.map",
-    "static/js/3.4e8f6514.chunk.js": "/weather/static/js/3.4e8f6514.chunk.js",
-    "static/js/3.4e8f6514.chunk.js.map": "/weather/static/js/3.4e8f6514.chunk.js.map",
+    "main.css": "/weather/static/css/main.84dcc7dd.chunk.css",
+    "main.js": "/weather/static/js/main.54e6298e.chunk.js",
+    "main.js.map": "/weather/static/js/main.54e6298e.chunk.js.map",
+    "runtime-main.js": "/weather/static/js/runtime-main.c5eb0da9.js",
+    "runtime-main.js.map": "/weather/static/js/runtime-main.c5eb0da9.js.map",
+    "static/js/2.a045fd77.chunk.js": "/weather/static/js/2.a045fd77.chunk.js",
+    "static/js/2.a045fd77.chunk.js.map": "/weather/static/js/2.a045fd77.chunk.js.map",
     "index.html": "/weather/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/weather/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.aa3466b4.chunk.js.LICENSE.txt": "/weather/static/js/2.aa3466b4.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/weather/static/media/logo.6ce24c58.svg"
+    "static/css/main.84dcc7dd.chunk.css.map": "/weather/static/css/main.84dcc7dd.chunk.css.map",
+    "static/js/2.a045fd77.chunk.js.LICENSE.txt": "/weather/static/js/2.a045fd77.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/weather/static/media/Academy-Weather forecast-Bg-up.1b9e0722.png",
+    "static/media/Academy-Weather-bg160.1a743710.svg": "/weather/static/media/Academy-Weather-bg160.1a743710.svg",
+    "static/media/App.scss": "/weather/static/media/Ubuntu-Regular.5d534041.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.60d3ddd3.js",
-    "static/js/2.aa3466b4.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.eea0ea9f.chunk.js"
+    "static/js/runtime-main.c5eb0da9.js",
+    "static/js/2.a045fd77.chunk.js",
+    "static/css/main.84dcc7dd.chunk.css",
+    "static/js/main.54e6298e.chunk.js"
   ]
 }
