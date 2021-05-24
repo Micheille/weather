@@ -1,0 +1,51 @@
+@import '../App/colors';
+
+.weather-past {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 660px;
+    height: 424px;
+    padding: 40px 38px;
+    background-color: $base-weak;
+    border-radius: 8px;
+
+    .weather-past__top {
+        .weather-past__title {
+            margin-bottom: 32px;
+        }
+    
+        .weather-past__forms {
+            display: flex;
+            justify-content: space-between;
+    
+            .weather-past__select {
+                cursor: pointer;
+                width: 252px;
+                height: 48px;
+                background: rgba($secondary, 6%);
+                border: 2px solid rgba($secondary, 20%);
+                border-radius: 8px;
+                font-family: 'Ubuntu';
+                font-size: 16px;
+                line-height: 24px;
+                color: $base-strong;
+        
+                &:hover {
+                    border-color: $secondary;
+                }
+                &:focus {
+                    border-color: $accent;
+                    outline: none;
+                }
+            }
+        }       
+    }
+    .weather-past__content {
+        .weather-past__error {
+            text-align: center;
+            font-weight: bold;
+            color: $critic;
+        }
+    }    
+}

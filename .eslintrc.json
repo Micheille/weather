@@ -15,7 +15,14 @@
   },
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
-    "prettier/prettier": "warn",
-    "no-use-before-define": "warn"
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "no-use-before-define": "off",
+    "no-unused-vars": "warn",
+    "@typescript-eslint/no-use-before-define": ["error"]
   }
 }

@@ -1,0 +1,11 @@
+@import '../App/colors';
+
+.intro {
+    text-align: center;
+    padding: 20px;
+
+    .intro__text {
+        font-weight: bold;
+        color: $secondary;
+    }
+}

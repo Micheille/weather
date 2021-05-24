@@ -1,0 +1,47 @@
+@import '../App/colors';
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url(../../assets/fonts/Ubuntu/Ubuntu-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url(../../assets/fonts/Ubuntu/Ubuntu-Bold.ttf);
+  font-weight: bold;
+}
+
+%font-props {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  line-height: 24px;
+  color: $base-strong;
+}
+
+h1 {
+  @extend %font-props;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+h2 {
+  @extend %font-props;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+p {
+  @extend %font-props;
+}
