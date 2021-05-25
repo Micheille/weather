@@ -1,7 +1,7 @@
 ## Getting Started
 
 Запуск: выполните npm start в корневой папке проекта.
-Сайт будет доступен по адресу localhosh:3000 и localhosh:3000/weather.
+Сайт будет доступен по адресу localhost:3000 и localhost:3000/weather
 
 ## Info
 
