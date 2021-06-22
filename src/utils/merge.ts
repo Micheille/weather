@@ -2,18 +2,7 @@ function merge<T extends object, V extends object>(
   objectT: T,
   objectV: V
 ): T & V {
-  const mergeObject: T & V = <T & V>{};
-
-  for (const keyT in objectT) {
-    const valueT = objectT[keyT];
-    (<any>mergeObject)[keyT] = valueT;
-  }
-
-  for (const keyV in objectV) {
-    const valueV = objectV[keyV];
-    (<any>mergeObject)[keyV] = valueV;
-  }
-
+  const mergeObject: T & V = <T & V>{ ...objectT, ...objectV };
   return mergeObject;
 }
 
