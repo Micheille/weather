@@ -2,7 +2,7 @@ import React from 'react';
 
 import './style.scss';
 
-const months: { [key: number]: any } = {
+const months: { [key: number]: string } = {
   1: 'jan',
   2: 'feb',
   3: 'mar',

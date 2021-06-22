@@ -5,7 +5,12 @@ import Intro from '../Intro';
 
 import './style.scss';
 
-const cities: { [key: string]: any } = {
+type City = {
+  lat: number;
+  lon: number;
+};
+
+const cities: { [key: string]: City } = {
   Samara: {
     lat: 53.195873,
     lon: 50.100193,
@@ -41,14 +46,14 @@ export default function WeatherPast() {
     const response = await fetch(
       `https://api.openweathermap.org/data/2.5/onecall/timemachine?lat=${lat}&lon=${lon}&dt=${time}&appid=f4ea689bc636fcf4c6e9a08ea5f9f7f8`
     );
-    const data = await response.json();
+    const historicalWeatherData = await response.json();
 
     if (!response.ok) {
-      setError(data.message);
+      setError(historicalWeatherData.message);
       setLoaded(false);
     } else {
-      setIcon(data.current.weather[0].icon);
-      setTemp(data.current.temp);
+      setIcon(historicalWeatherData.current.weather[0].icon);
+      setTemp(historicalWeatherData.current.temp);
       setLoaded(true);
     }
   };
